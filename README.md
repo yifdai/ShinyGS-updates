@@ -26,10 +26,9 @@ docker pull yfd2/ags:1.1.6
 
 2. Move `Run.sh` to the folder where your genotype and phenotype files are located.
 
-3.1. Genotype file format requirements:
+3. Input file format requirements:
    - If your genotype file is in **PLINK format** (`.bed`, `.bim`, `.fam`), the folder name must be the **prefix** of the PLINK files.
    - If your genotype file is in **VCF format**, the software will automatically convert it to PLINK format after quality control.
-3.2. Phenotype file format requirements:
    - The phenotype file could be (`.txt`, `.csv`) format, with the first column saves the sample ids, and each following column contains each phenotype that you would like to analyze.
 
 4. Launch the application:
