@@ -60,7 +60,7 @@ On the left panel you can follow the step-by-step guidance: choose a model, choo
 - Fixed the BWGS prediction error ("argument matches multiple formal arguments")
 - Fixed the kinship matrix reconstruction and sample ID alignment in the rrBLUP module
 - Added a guard to avoid crashes when the population reduction size is too large
-- Removed the DNNGP3 module
+- Removed the DNNGP3 module (Due to version in consistant issue, will fix this in the future updates)
 - Improved the user interface with clearer step-by-step guidance
 - Added an automated test suite (37 tests) covering all model modules and conversion scripts
 - Reduced the Docker image size from 47.5 GB to 3.7 GB
