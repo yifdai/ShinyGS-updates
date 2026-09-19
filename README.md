@@ -24,8 +24,7 @@ https://docs.docker.com/get-docker/
 
 Once Docker is installed, pull the latest version of the software:
 
-'docker pull yfd2/ags:2.0.1'
-
+`docker pull yfd2/ags:2.0.1`
 
 
 ## Quick Start
@@ -45,9 +44,7 @@ Once Docker is installed, pull the latest version of the software:
 
 4. Launch the application:
 
-'bash Run.sh'
-
-
+`bash Run.sh`
 
 This will start the ShinyGS app locally in your browser at http://localhost:4040.
 
